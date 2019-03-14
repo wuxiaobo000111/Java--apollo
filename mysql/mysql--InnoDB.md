@@ -141,3 +141,4 @@ mysql> select * from emp where empid > 100 for update;
 
 
 >但是有一点需要注意的就是，当产生死锁的场景中涉及到不止InnoDB存储引擎的时候，InnoDB是没办法检测到该死锁的，这时候就只能通过锁定超时限制参数InnoDB_lock_wait_timeout来解决。
+
