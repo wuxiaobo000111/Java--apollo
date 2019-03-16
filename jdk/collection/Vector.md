@@ -121,7 +121,7 @@ public static void main(String[] args) throws InterruptedException {
 
 >&nbsp;&nbsp;&nbsp;&nbsp;这里是两种遍历方式，同时还包含从前遍历和从后遍历两种方式。
 
-![在这里插入图片描述](https://github.com/wuxiaobo000111/pictures/blob/master/2019-03-16/69.jpg?raw=true)
+![在这里插入图片描述](https://github.com/wuxiaobo000111/pictures/blob/master/2019-03-16/69.png?raw=true)
 
 
 >&nbsp;&nbsp;&nbsp;&nbsp;这里我注释掉了使用listIterator的从前遍历。结果会是如何呢？
@@ -154,7 +154,7 @@ public static void main(String[] args) throws InterruptedException {
         System.out.println(vector.toString());
     }
 ```
-![在这里插入图片描述](https://github.com/wuxiaobo000111/pictures/blob/master/2019-03-16/70.jpg?raw=true)
+![在这里插入图片描述](https://github.com/wuxiaobo000111/pictures/blob/master/2019-03-16/70.png?raw=true)
 
 >&nbsp;&nbsp;&nbsp;&nbsp;我们发现从后遍历的结果也没有了，为何会出现这样的结果呢？我们可以从源码中可以得知一二。
 
