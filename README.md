@@ -19,6 +19,6 @@
 
 # 数据结构
 
-[B-树](https://github.com/wuxiaobo000111/markdown/blob/master/linux/VMware%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE%E9%9D%99%E6%80%81IP.md "B-树")
+[B-树](https://github.com/wuxiaobo000111/markdown/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/B%E6%A0%91.md "B-树")
 
 [B+树](https://github.com/wuxiaobo000111/markdown/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/B%2B%E6%A0%91.md "B+树")
