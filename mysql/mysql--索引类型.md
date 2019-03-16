@@ -80,6 +80,12 @@ ALTER TABLE award ADD INDEX account_Index(`account`)
 
 
 #### InnoDB使用的索引结构(B+树,注意:是叫B树)
+[B-树](https://github.com/wuxiaobo000111/markdown/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/B%E6%A0%91.md "B-树")
+
+[B+树](https://github.com/wuxiaobo000111/markdown/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/B%2B%E6%A0%91.md "B+树")
+
+>&nbsp;&nbsp;&nbsp;&nbsp;B-树和B+树的原理都在如上的两篇文章中。
+
 
 #### mysql索引失效
 
