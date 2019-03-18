@@ -34,3 +34,10 @@
 [B-树](https://github.com/wuxiaobo000111/markdown/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/B%E6%A0%91.md "B-树")
 
 [B+树](https://github.com/wuxiaobo000111/markdown/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/B%2B%E6%A0%91.md "B+树")
+
+#WEB 
+
+[HTTP和HTTPS](https://github.com/wuxiaobo000111/markdown/blob/master/web/HTTP%E5%92%8CHTTPS.md "HTTP和HTTPS")
+
+
+[对称加密](https://github.com/wuxiaobo000111/markdown/blob/master/web/%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86.md "对称加密")
