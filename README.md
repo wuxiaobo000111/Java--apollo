@@ -70,3 +70,9 @@
 [redis--set](https://github.com/wuxiaobo000111/markdown/blob/master/redis/redis-set.md "redis--set")
 
 [redis--全局命令](https://github.com/wuxiaobo000111/markdown/blob/master/redis/redis%E5%85%A8%E5%B1%80%E5%91%BD%E4%BB%A4.md "redis--全局命令")
+
+
+[redis--慢查询分析](
+https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E6%85%A2%E6%9F%A5%E8%AF%A2%E5%88%86%E6%9E%90.md   "redis--全局命令")
+
+
