@@ -76,3 +76,10 @@
 https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E6%85%A2%E6%9F%A5%E8%AF%A2%E5%88%86%E6%9E%90.md   "redis--全局命令")
 
 
+
+[redis--redis-cli详解](
+https://github.com/wuxiaobo000111/markdown/blob/master/redis/redis-cli%E8%AF%A6%E8%A7%A3.md
+   "redis--redis-cli详解")
+
+
+
