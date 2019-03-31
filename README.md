@@ -106,5 +106,9 @@ https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E6%85%A2%E6%9F%A5%
 https://github.com/wuxiaobo000111/markdown/blob/master/redis/redis-cli%E8%AF%A6%E8%A7%A3.md
    "redis--redis-cli详解")
 
+[redis--HyperLogLog](https://github.com/wuxiaobo000111/markdown/blob/master/redis/HyperLogLog.md "redis--HyperLogLog")
+
+
+[redis--发布订阅](https://github.com/wuxiaobo000111/markdown/blob/master/redis/redis--%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85.md "redis--发布定于")
 
 
