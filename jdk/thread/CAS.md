@@ -1,3 +1,5 @@
+[TOC]
+
 # 模型
 >&nbsp;&nbsp;&nbsp;&nbsp;CAS的全称是Compare And Swap 即比较交换，其算法核心思想如下执行函数：CAS(V,E,N)其包含3个参数: V表示要更新的变量,E表示预期值,N表示新值。
 
