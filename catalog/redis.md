@@ -1,5 +1,6 @@
 # redis
 
+## 基础
 [redis--hash](https://github.com/wuxiaobo000111/markdown/blob/master/redis/redis--Hash.md "redis--hash")
 
 [redis--list](https://github.com/wuxiaobo000111/markdown/blob/master/redis/redis--list.md "redis --list")
@@ -43,3 +44,14 @@ https://github.com/wuxiaobo000111/markdown/blob/master/redis/redis-cli%E8%AF%A6%
 
 
 [redis--RDB和AOF](https://github.com/wuxiaobo000111/markdown/blob/master/redis/RDB%E5%92%8CAOF.md "redis--RDB和AOF")
+
+## 主从复制
+
+[redis--如何配置主从](https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE%E4%B8%BB%E4%BB%8E.md "redis--如何配置主从")
+
+[redis--主从复制拓扑结构](https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E7%9A%84%E6%8B%93%E6%89%91%E7%BB%93%E6%9E%84.md "redis--主从复制拓扑结构")
+
+[redis--主从复制原理](https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E7%9A%84%E5%8E%9F%E7%90%86.md "redis--主从复制原理")
+
+[redis--主从复制带来的问题](https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E4%B8%AD%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB%E5%B8%A6%E6%9D%A5%E7%9A%84%E9%97%AE%E9%A2%98.md "redis--RDB和AOF")
+
