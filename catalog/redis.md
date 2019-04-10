@@ -55,3 +55,10 @@ https://github.com/wuxiaobo000111/markdown/blob/master/redis/redis-cli%E8%AF%A6%
 
 [redis--主从复制带来的问题](https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E4%B8%AD%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB%E5%B8%A6%E6%9D%A5%E7%9A%84%E9%97%AE%E9%A2%98.md "redis--RDB和AOF")
 
+
+## 阻塞
+
+
+[redis--阻塞](
+https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E9%98%BB%E5%A1%9E/%E5%8F%91%E7%8E%B0%E9%98%BB%E5%A1%9E.md "redis--阻塞")
+
