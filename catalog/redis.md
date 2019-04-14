@@ -78,3 +78,6 @@ https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E5%93%A8%E5%85%B5/
 https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E5%93%A8%E5%85%B5/sentinel%E5%91%BD%E4%BB%A4.md "redis--sentinel命令")
 
 
+[redis--sentinel原理](
+https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E5%93%A8%E5%85%B5/%E5%93%A8%E5%85%B5%E5%8E%9F%E7%90%86.md "redis--sentinel原理")
+
