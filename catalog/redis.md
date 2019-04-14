@@ -62,3 +62,18 @@ https://github.com/wuxiaobo000111/markdown/blob/master/redis/redis-cli%E8%AF%A6%
 [redis--阻塞](
 https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E9%98%BB%E5%A1%9E/%E5%8F%91%E7%8E%B0%E9%98%BB%E5%A1%9E.md "redis--阻塞")
 
+# 哨兵
+
+
+[redis--如何配置redis哨兵](
+https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E5%93%A8%E5%85%B5/%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AEredis%E5%93%A8%E5%85%B5.md "redis--如何配置redis哨兵.")
+
+
+[redis--哨兵配置说明](
+https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E5%93%A8%E5%85%B5/redis%E5%93%A8%E5%85%B5%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E.md "redis--哨兵配置说明")
+
+
+[redis--sentinel命令](
+https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E5%93%A8%E5%85%B5/sentinel%E5%91%BD%E4%BB%A4.md "redis--sentinel命令")
+
+
