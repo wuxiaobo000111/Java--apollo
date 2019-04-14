@@ -5,7 +5,8 @@
 
 [redis--list](https://github.com/wuxiaobo000111/markdown/blob/master/redis/redis--list.md "redis --list")
 
-[redis--string](https://github.com/wuxiaobo000111/markdown/blob/master/redis/redis--string.md "redis--string")
+[redis--string](https://github.com/wuxiaobo000111/markdown/blob/master/redis/redis--string.md 
+"redis--string")
 
 [redis--zset](https://github.com/wuxiaobo000111/markdown/blob/master/redis/redis--zset.md "redis--zset")
 
