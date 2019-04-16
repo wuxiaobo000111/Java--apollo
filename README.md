@@ -51,3 +51,7 @@
 [redis相关](
 https://github.com/wuxiaobo000111/markdown/blob/master/catalog/redis.md "redis相关")
 
+# Spring-cloud
+
+[spring-cloud 组件](
+https://github.com/wuxiaobo000111/markdown/blob/master/catalog/spring-cloud.md "spring-cloud 组件")
