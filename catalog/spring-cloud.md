@@ -9,3 +9,13 @@
 
 
 [eureka--REST API](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/eureka/eureka%20rest%20api.md "eureka--REST API")
+
+
+
+## Feign
+
+[Feign--介绍](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/Feign/Feign%E7%9A%84%E4%BB%8B%E7%BB%8D.md "Feign--介绍")
+
+[Feign--入门教程](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/Feign/Feign%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B.md "Feign--入门教程")
+
+[Feign--负载均衡](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/Feign/Feign%E5%AE%9E%E7%8E%B0%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1.md "Feign--负载均衡")
