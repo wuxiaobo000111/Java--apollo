@@ -81,3 +81,8 @@ https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E5%93%A8%E5%85%B5/
 [redis--sentinel原理](
 https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E5%93%A8%E5%85%B5/%E5%93%A8%E5%85%B5%E5%8E%9F%E7%90%86.md "redis--sentinel原理")
 
+# 集群
+
+
+[redis--集群搭建](
+https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E9%9B%86%E7%BE%A4/redis%20cluster.md "redis--集群搭建")
