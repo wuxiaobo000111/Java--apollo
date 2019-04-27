@@ -38,3 +38,7 @@
 
 
 [Hystrix--Actuator](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/Hystrix/Actuator.md "Hystrix--Actuator") 这里其实是做了个执行器的补充可以看一下
+
+
+
+[Hystrix--Turbine聚合Hystrix](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/Hystrix/Turbine%E8%81%9A%E5%90%88Hystrix.md  "Turbine聚合Hystrix") Turbine聚合Hystrix代码示例
