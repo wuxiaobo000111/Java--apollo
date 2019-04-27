@@ -86,3 +86,9 @@ https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E5%93%A8%E5%85%B5/
 
 [redis--集群搭建](
 https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E9%9B%86%E7%BE%A4/redis%20cluster.md "redis--集群搭建")
+
+# 缓存设计
+
+
+[redis--缓存设计](
+https://github.com/wuxiaobo000111/markdown/blob/master/redis/%E7%BC%93%E5%AD%98%E8%AE%BE%E8%AE%A1/%E7%BC%93%E5%AD%98%E8%AE%BE%E8%AE%A1.md  "redis--缓存设计")
