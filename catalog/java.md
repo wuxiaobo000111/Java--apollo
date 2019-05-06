@@ -62,3 +62,18 @@
 [JDK8--流中分区如何使用](https://github.com/wuxiaobo000111/markdown/blob/master/jdk/jdk8/%E6%B5%81/%E5%88%86%E5%8C%BA.md
 "JDK8--流中分区如何使用") 流中分区如何使用
 
+[JDK8--CompletableFuture的使用](https://github.com/wuxiaobo000111/markdown/blob/master/jdk/jdk8/%E6%B5%81/CompletableFuture.md
+"JDK8--CompletableFuture的使用") 组合式异步编程的使用
+
+[JDK8--并行流的使用](https://github.com/wuxiaobo000111/markdown/blob/master/jdk/jdk8/%E5%B9%B6%E8%A1%8C%E6%B5%81.md
+"JDK8--并行流的使用") 并行流如何使用
+
+[JDK8--Optional](https://github.com/wuxiaobo000111/markdown/blob/master/jdk/jdk8/%E4%BD%BF%E7%94%A8Optional.md 
+"JDK8--Optional") Optional的使用
+
+[JDK8--日期类](https://github.com/wuxiaobo000111/markdown/blob/master/jdk/jdk8/%E6%97%A5%E6%9C%9F%E7%B1%BB/LocalDate%2C%20LocalTime%2CInstant%2CDuration%E5%92%8CPeriod.md
+ "JDK8--日期类") 主要介绍了LocalDate, LocalTime,Instant,Duration和Period这五个日期的使用
+
+[JDK8--如何操作日期](https://github.com/wuxiaobo000111/markdown/blob/master/jdk/jdk8/%E6%97%A5%E6%9C%9F%E7%B1%BB/%E6%93%8D%E4%BD%9C%E8%A7%A3%E6%9E%90%E6%A0%BC%E5%BC%8F%E5%8C%96%E6%97%A5%E6%9C%9F.md
+"JDK8--流中分区如何使用") JDK8如何操作日期
+
