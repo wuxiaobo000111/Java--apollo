@@ -37,7 +37,7 @@
 [AbstractQueuedSynchronized--AQS](https://github.com/wuxiaobo000111/markdown/blob/master/jdk/thread/%E7%90%86%E8%A7%A3AbstractQueuedSynchronized.md
 "AbstractQueuedSynchronized--AQS")
 
-# JDK8 (JAVA 8 新特性)
+## JDK8 (JAVA 8 新特性)
 
 
 [JDK8--Lambda](https://github.com/wuxiaobo000111/markdown/blob/master/jdk/jdk8/Lambda.md
@@ -77,3 +77,8 @@
 [JDK8--如何操作日期](https://github.com/wuxiaobo000111/markdown/blob/master/jdk/jdk8/%E6%97%A5%E6%9C%9F%E7%B1%BB/%E6%93%8D%E4%BD%9C%E8%A7%A3%E6%9E%90%E6%A0%BC%E5%BC%8F%E5%8C%96%E6%97%A5%E6%9C%9F.md
 "JDK8--流中分区如何使用") JDK8如何操作日期
 
+
+## JVM
+
+[JVM--JDK7和JDK8的内存区域划分](https://github.com/wuxiaobo000111/markdown/blob/master/jdk/jdk8/%E6%97%A5%E6%9C%9F%E7%B1%BB/%E6%93%8D%E4%BD%9C%E8%A7%A3%E6%9E%90%E6%A0%BC%E5%BC%8F%E5%8C%96%E6%97%A5%E6%9C%9F.md
+"JVM--JDK7和JDK8的内存区域划分") JDK7和JDK8的内存区域是如何划分的,有何相同点和有何不同点。
