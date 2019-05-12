@@ -61,3 +61,16 @@
 
 [Hystrix--Hystrix配置文件](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/Hystrix/Hystrix%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E.md  "Hystrix配置文件") Hystrix配置文件
 
+# Ribbon
+
+
+
+[Ribbon--Ribbon入门教程](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/ribbon/Ribbon%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B.md  "Ribbon入门教程") Ribbon入门教程的教程,有详细的代码
+
+
+
+[Ribbon--Ribbon入门教程](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/ribbon/Ribbon%E5%AE%9E%E8%B7%B5.md  "Ribbon--Ribbon入门教程") Ribbon实践。包含Ribbon如何配置负载均衡策略、超时和重试以及如何这只懒加载
+
+
+
+[Hystrix--Hystrix配置文件](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/Hystrix/Hystrix%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E.md  "Hystrix配置文件") Hystrix配置文件
