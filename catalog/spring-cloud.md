@@ -42,3 +42,22 @@
 
 
 [Hystrix--Turbine聚合Hystrix](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/Hystrix/Turbine%E8%81%9A%E5%90%88Hystrix.md  "Turbine聚合Hystrix") Turbine聚合Hystrix代码示例
+
+
+[Hystrix--HystrixCommand和HystrixObservableCommand](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/Hystrix/HystrixCommand%E5%92%8CHystrixObservableCommand.md  "HystrixCommand和HystrixObservableCommand") HystrixCommand和HystrixObservableCommand如何使用、相同点和不同点、属性介绍
+
+
+[Hystrix--Hystrix合并请求](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/Hystrix/Hystrix%E5%90%88%E5%B9%B6%E8%AF%B7%E6%B1%82.md  "Hystrix合并请求") Hystrix合并请求给出了示例代码
+
+
+
+[Hystrix--Hystrix异常处理机制](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/Hystrix/Hystrix%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E6%9C%BA%E5%88%B6.md  "Hystrix异常处理机制") Hystrix异常处理机制的代码示例
+
+
+
+[Hystrix--Hystrix线程传递和并发策略](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/Hystrix/Hystrix%E7%BA%BF%E7%A8%8B%E4%BC%A0%E9%80%92%E5%92%8C%E5%B9%B6%E5%8F%91%E7%AD%96%E7%95%A5.md  "Hystrix线程传递和并发策略") Hystrix线程传递和并发策略,给出了如何在Hystrix上下文中传递对象并且给出了代码示例
+
+
+
+[Hystrix--Hystrix配置文件](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/Hystrix/Hystrix%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E.md  "Hystrix配置文件") Hystrix配置文件
+
