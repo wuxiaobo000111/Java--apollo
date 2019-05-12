@@ -73,4 +73,4 @@
 
 
 
-[Hystrix--Hystrix配置文件](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/Hystrix/Hystrix%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E.md  "Hystrix配置文件") Hystrix配置文件
+[Ribbon--RestTemplate对象](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/ribbon/RestTemplate%E5%AF%B9%E8%B1%A1.md "Ribbon--RestTemplate对象]") RestTemplate对象如何使用
