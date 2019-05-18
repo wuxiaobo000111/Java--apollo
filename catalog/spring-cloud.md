@@ -80,3 +80,6 @@
 
 [Zuul--Zuul入门教程](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/zuul/Zuul%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B.md "Zuul--Zuul入门教程]") 给出了zuul最简单的一个小例子
 
+
+[Zuul--Zuul配置](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/zuul/Zuul%E9%85%8D%E7%BD%AE.md "Zuul--Zuul配置]") 给出了Zuul配置,包含路由配置、服务屏蔽和路径屏蔽、敏感头信息、重定向和重试等功能。
+
