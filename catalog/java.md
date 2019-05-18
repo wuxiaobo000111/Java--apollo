@@ -37,6 +37,13 @@
 [AbstractQueuedSynchronized--AQS](https://github.com/wuxiaobo000111/markdown/blob/master/jdk/thread/%E7%90%86%E8%A7%A3AbstractQueuedSynchronized.md
 "AbstractQueuedSynchronized--AQS")
 
+[多线程源码分析系列--深入分析 synchronized 的实现原理](https://github.com/wuxiaobo000111/markdown/blob/master/jdk/thread/%E6%B7%B1%E5%85%A5%E5%88%86%E6%9E%90%20synchronized%20%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86.md
+"多线程源码分析系列--深入分析 synchronized 的实现原理") 分析了synchronized的实现原理。以及在JVM中的锁升级
+
+[多线程源码分析系列--volatile 的实现原理](https://github.com/wuxiaobo000111/Java--apollo/blob/master/jdk/thread/volatile%20%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86.md
+"多线程源码分析系列--volatile 的实现原理")
+
+
 ## JDK8 (JAVA 8 新特性)
 
 
