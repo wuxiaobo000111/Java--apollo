@@ -74,3 +74,9 @@
 
 
 [Ribbon--RestTemplate对象](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/ribbon/RestTemplate%E5%AF%B9%E8%B1%A1.md "Ribbon--RestTemplate对象]") RestTemplate对象如何使用
+
+
+# Zuul
+
+[Zuul--Zuul入门教程](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/zuul/Zuul%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B.md "Zuul--Zuul入门教程]") 给出了zuul最简单的一个小例子
+
