@@ -1,3 +1,4 @@
+摘要: 原创出处 http://cmsblogs.com/?p=2092 「小明哥」欢迎转载，保留摘要，谢谢！
 # 概述
 
 >&nbsp;&nbsp;&nbsp;&nbsp; volatile ，则是轻量级的 synchronized ，它在多线程开发中保证了共享变量的“可见性”。如果一个变量使用 volatile ，则它比使用 synchronized 的成本更加低，因为它不会引起线程上下文的切换和调度。
