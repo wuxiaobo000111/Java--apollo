@@ -94,3 +94,6 @@
 
 [Zuul--Zuul灰度发布](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/zuul/Zuul%E7%81%B0%E5%BA%A6%E5%8F%91%E5%B8%83.md "Zuul--Zuul灰度发布]") 如何实现灰度发布
 
+
+[Zuul--Zuul功能](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/zuul/Zuul%E5%8A%9F%E8%83%BD.md "Zuul--Zuul功能]") 
+
