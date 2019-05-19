@@ -83,3 +83,7 @@
 
 [Zuul--Zuul配置](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/zuul/Zuul%E9%85%8D%E7%BD%AE.md "Zuul--Zuul配置]") 给出了Zuul配置,包含路由配置、服务屏蔽和路径屏蔽、敏感头信息、重定向和重试等功能。
 
+
+[Zuul--Zuul-Filter责任链](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/zuul/Zuul-Filter%E8%B4%A3%E4%BB%BB%E9%93%BE.md "Zuul--Zuul-Filter责任链]") 什么是Filter,内置的Filter,如何自己实现Filter代码。
+
+
