@@ -92,3 +92,5 @@
 
 [Zuul--Zuul动态路由](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/zuul/Zuul%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1.md "Zuul--Zuul动态路由]") 还没有完成,缺少示例代码
 
+[Zuul--Zuul灰度发布](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/zuul/Zuul%E7%81%B0%E5%BA%A6%E5%8F%91%E5%B8%83.md "Zuul--Zuul灰度发布]") 如何实现灰度发布
+
