@@ -87,3 +87,8 @@
 [Zuul--Zuul-Filter责任链](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/zuul/Zuul-Filter%E8%B4%A3%E4%BB%BB%E9%93%BE.md "Zuul--Zuul-Filter责任链]") 什么是Filter,内置的Filter,如何自己实现Filter代码。
 
 
+[Zuul--Zuul限流](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/zuul/Zuul%E9%99%90%E6%B5%81.md "Zuul--Zuul限流]") 
+
+
+[Zuul--Zuul动态路由](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/zuul/Zuul%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1.md "Zuul--Zuul动态路由]") 还没有完成,缺少示例代码
+
