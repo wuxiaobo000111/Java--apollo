@@ -43,6 +43,13 @@
 [多线程源码分析系列--volatile 的实现原理](https://github.com/wuxiaobo000111/Java--apollo/blob/master/jdk/thread/volatile%20%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86.md
 "多线程源码分析系列--volatile 的实现原理")
 
+[多线程源码分析系列--java内存模型重排序](https://github.com/wuxiaobo000111/Java--apollo/blob/master/jdk/thread/java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E9%87%8D%E6%8E%92%E5%BA%8F.md
+"多线程源码分析系列--java内存模型重排序")
+
+
+[多线程源码分析系列-- happens-bofore](https://github.com/wuxiaobo000111/Java--apollo/blob/master/jdk/thread/happens-bofore.md
+"多线程源码分析系列--happens-bofore")
+
 
 ## JDK8 (JAVA 8 新特性)
 
