@@ -76,6 +76,10 @@
 [Ribbon--RestTemplate对象](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/ribbon/RestTemplate%E5%AF%B9%E8%B1%A1.md "Ribbon--RestTemplate对象]") RestTemplate对象如何使用
 
 
+[Ribbon--使用ribbon调用第三方HTTPS接口](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/ribbon/%E4%BD%BF%E7%94%A8ribbon%E8%B0%83%E7%94%A8%E7%AC%AC%E4%B8%89%E6%96%B9HTTPS%E6%8E%A5%E5%8F%A3.md "Ribbon--使用ribbon调用第三方HTTPS接口") 使用ribbon调用第三方HTTPS接口,并且给出了真实的例子
+
+
+
 # Zuul
 
 [Zuul--Zuul入门教程](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/zuul/Zuul%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B.md "Zuul--Zuul入门教程]") 给出了zuul最简单的一个小例子
