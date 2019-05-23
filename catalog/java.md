@@ -28,6 +28,9 @@
 [CAS](https://github.com/wuxiaobo000111/markdown/blob/master/jdk/thread/CAS.md
 "CAS")
 
+[深入分析 CAS](https://github.com/wuxiaobo000111/Java--apollo/blob/master/jdk/thread/%E6%B7%B1%E5%85%A5%E5%88%86%E6%9E%90%20CAS.md
+"深入分析 CAS")
+
 [synchronized锁升级](https://github.com/wuxiaobo000111/markdown/blob/master/jdk/thread/java%E9%94%81%E7%9A%84%E5%8D%87%E7%BA%A7.md
 "synchronized锁升级")
 
@@ -53,6 +56,10 @@
 
 [多线程源码分析系列-- ReentrantLock](https://github.com/wuxiaobo000111/Java--apollo/blob/master/jdk/thread/ReentrantLock.md
 "多线程源码分析系列--ReentrantLock")
+
+[多线程源码分析系列-- 读写锁-ReentrantReadWriteLock](https://github.com/wuxiaobo000111/Java--apollo/blob/master/jdk/thread/%E8%AF%BB%E5%86%99%E9%94%81-ReentrantReadWriteLock.md
+"多线程源码分析系列--读写锁-ReentrantReadWriteLock")
+
 
 
 ## JDK8 (JAVA 8 新特性)
