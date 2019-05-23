@@ -538,5 +538,155 @@ final boolean tryReadLock() {
         }
     }
 }
-4.10 isHeldExcl
+```
+
+
+## 读锁和写锁
+
+>&nbsp;&nbsp;&nbsp;&nbsp;ReentrantReadWriteLock 的读锁和写锁，基于它内部的 Sync 实现，所以具体的实现方法，就是对内部的 Sync 的方法的调用。
+### 读锁
+
+>&nbsp;&nbsp;&nbsp;&nbsp;ReadLock 是 ReentrantReadWriteLock 的内部静态类，实现 java.util.concurrent.locks.Lock 接口，读锁实现类。
+
+#### 构造函数
+
+```java
+        private final Sync sync;
+
+        /**
+         * Constructor for use by subclasses
+         *
+         * @param lock the outer lock object
+         * @throws NullPointerException if the lock is null
+         */
+        protected ReadLock(ReentrantReadWriteLock lock) {
+            sync = lock.sync;
+        }
+sync 字段，通过 ReentrantReadWriteLock 的构造方法，传入并使用它的 Sync 对象。
+```
+
+#### lock方法
+
+
+```java
+        public void lock() {
+            sync.acquireShared(1);
+        }
+调用 AQS 的 #acquireShared(int arg) 方法，共享式获得同步状态。所以，读锁可以同时被多个线程获取。
+```
+
+
+#### lockInterruptibly
+```java
+@Override
+public void lockInterruptibly() throws InterruptedException {
+    sync.acquireSharedInterruptibly(1);
+}
+```
+
+#### tryLock
+
+```java
+public boolean tryLock() {
+    return sync.tryReadLock();
+}
+
+
+#tryLock() 实现方法，在实现时，希望能快速的获得是否能够获得到锁，因此即使在设置为 fair = true ( 使用公平锁 )，
+依然调用 Sync#tryReadLock() 方法。
+
+如果真的希望 #tryLock() 还是按照是否公平锁的方式来，可以调用 #tryLock(0, TimeUnit) 方法来实现
+
+@Override
+public boolean tryLock(long timeout, TimeUnit unit) throws InterruptedException {
+    return sync.tryAcquireSharedNanos(1, unit.toNanos(timeout));
+}
+```
+
+#### unlock
+
+```java
+@Override
+public void unlock() {
+    sync.releaseShared(1);
+}
+```
+
+#### newCondition
+
+```java
+@Override
+public Condition newCondition() {
+    throw new UnsupportedOperationException();
+}
+```
+
+
+### 写锁
+
+>&nbsp;&nbsp;&nbsp;&nbsp;WriteLock 的代码，类似 ReadLock 的代码，差别在于独占式获取同步状态。WriteLock 是 ReentrantReadWriteLock 的内部静态类，实现 java.util.concurrent.locks.Lock 接口，写锁实现类。
+
+#### 构造方法
+
+```java
+private final Sync sync;
+
+protected ReadLock(ReentrantReadWriteLock lock) {
+    sync = lock.sync;
+}
+
+sync 字段，通过 ReentrantReadWriteLock 的构造方法，传入并使用它的 Sync 对象。
+```
+
+#### lock 
+
+```java
+@Override
+public void lock() {
+    sync.acquire(1);
+}
+
+调用 AQS 的 #.acquire(int arg) 方法，独占式获得同步状态。所以，写锁只能同时被一个线程获取。
+```
+
+
+#### tryLock
+
+```java
+@Override
+ public boolean tryLock( ) {
+    return sync.tryWriteLock();
+}
+
+
+#tryLock() 实现方法，在实现时，希望能快速的获得是否能够获得到锁，因此即使在设置为 fair = true ( 使用公平锁 )，
+依然调用 Sync#tryWriteLock() 方法。
+
+如果真的希望 #tryLock() 还是按照是否公平锁的方式来，可以调用 #tryLock(0, TimeUnit) 方法来实现。
+
+
+@Override 
+public boolean tryLock(long timeout, TimeUnit unit) throws InterruptedException {
+    return sync.tryAcquireNanos(1, unit.toNanos(timeout));
+}
+```
+
+
+#### unlock
+
+```java
+@Override
+public void unlock() {
+    sync.release(1);
+}
+```
+
+#### newCondition
+
+```java
+@Override
+public Condition newCondition() {
+    return sync.newCondition();
+}
+调用 Sync#newCondition() 方法，创建 Condition 对象。
 ```
