@@ -29,7 +29,7 @@
 [Feign--Feign和Hystrix的结合使用](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/Feign/Feign%E5%92%8CHystrix%E7%BB%93%E5%90%88%E4%BD%BF%E7%94%A8.md  "Feign--Feign和Hystrix的结合使用") 实现了eureka作为注册中心,Feign和Hystrix结合使用的小例子
 
 
-# Hystrix
+## Hystrix
 
 [Hystrix--Hystrix概述](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/Hystrix/Hystrix%E6%A6%82%E8%BF%B0.md  "Hystrix--Hystrix概述") Hystrixg概述
 
@@ -61,7 +61,7 @@
 
 [Hystrix--Hystrix配置文件](https://github.com/wuxiaobo000111/markdown/blob/master/spring-cloud/Hystrix/Hystrix%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E.md  "Hystrix配置文件") Hystrix配置文件
 
-# Ribbon
+## Ribbon
 
 
 
@@ -80,7 +80,7 @@
 
 
 
-# Zuul
+## Zuul
 
 [Zuul--Zuul入门教程](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/zuul/Zuul%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B.md "Zuul--Zuul入门教程]") 给出了zuul最简单的一个小例子
 
@@ -101,3 +101,21 @@
 
 [Zuul--Zuul功能](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/zuul/Zuul%E5%8A%9F%E8%83%BD.md "Zuul--Zuul功能]") 
 
+
+## consul
+
+
+[Consul--基本概念](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/consul/consul%E6%A6%82%E5%BF%B5%E4%BB%8B%E7%BB%8D.md "Consul--基本概念]") 
+
+
+
+[Consul--Consul安装](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/consul/consul%E5%AE%9E%E7%8E%B0%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%B3%A8%E5%86%8C%E5%92%8C%E5%8F%91%E7%8E%B0.md "Consul--Consul安装]") 
+
+
+
+[Consul--consul实现服务的注册和发现](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/consul/consul%E5%AE%9E%E7%8E%B0%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%B3%A8%E5%86%8C%E5%92%8C%E5%8F%91%E7%8E%B0.md "Consul--consul实现服务的注册和发现]") 
+
+[Consul--consul的配置中心](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/consul/consul%E7%9A%84%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83.md "Consul--consul的配置中心]") 
+
+
+[Consul--consul具体功能](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/consul/consul%E5%85%B7%E4%BD%93%E5%8A%9F%E8%83%BD.md "Consul--consul具体功能]") 
