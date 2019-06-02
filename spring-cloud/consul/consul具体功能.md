@@ -543,3 +543,94 @@ public class HelloController {
 }
 
 ```
+
+# 服务发现
+
+
+>&nbsp;&nbsp;&nbsp;&nbsp;Consul Config刷新原理
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们知道, Spring Cloud Consul是通过HTTP的方式跟Consul交互,那配置是如何实时生效的呢?答案其实很简单,那就是配置并没有实时生效。org.springframework.cloud.consul.config.ConfigWatch中有一个定时方法watchConfigKeyValues(),它默认每秒执行一次(可以通过spring.cloud.consul.config.watch.delay自定义),去Consul中获取最新的配置信息,一旦配置发生改变, Spring通过ApplicationEventPublisher重新刷新配置。Consul Config组件就是通过这种方式,达到配置“实时生效”的目的。那客户端如何得知配置被更新过了呢,答案在Consul返回的数据里。Consul会给每一项配置加一个"consullndex"属性,类似于版本号,如果配置更新,它就会自增。Spring Cloud Consul Config就是通过缓存"consullndex"来判断配置是否发生改变。
+&nbsp;&nbsp;&nbsp;&nbsp;Consul Config高级配置
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Consul只支持用K/V的方式进行配置,那怎么让Consul支持同时配置多条的方式呢?难道要给Consul增加一个导入功能吗?聪明的读者马上就能想到, K/V不仅可以代表一条配置,还可以代表一个应用的配置,我们将应用名作为K, V中用来存放它所有的配置,这样就可以达到同时配置多条的效果。代码如下所示:
+
+
+## 依赖
+
+```xml
+   <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-consul-config</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+```
+
+
+## 配置文件
+
+
+```yml
+# application.yml
+
+server:
+  port: 8119
+spring:
+  profiles:
+    active: test    # 指定启动时的 profiles
+
+# bootstarp.yml
+
+spring:
+  application:
+    name: consule-config-customize
+  cloud:
+    consul:
+      config:
+        format: yaml              # Consul 中 Value 配置格式为 yaml
+        prefix: configuration     # Consul 中配置文件目录为 configuration, 默认为 config
+        default-context: app      # 去该目录下查找缺省配置,默认为 application
+        profile-separator: ':'    # profiles配置分隔符,默认为‘,’
+        data-key: data
+      host: localhost
+      port: 8500          # 如果指定配置格式为 yaml 或者 properties, 则需要该值作为key,默认为 data
+
+```
+
+## 启动类
+
+```java
+package com.bobo.springcloud.learn.consulconfigcustomize;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ConsulConfigCustomizeApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ConsulConfigCustomizeApplication.class, args);
+    }
+
+}
+
+```
+
+## 配置
+
+>&nbsp;&nbsp;&nbsp;&nbsp;配置的路径是/configuration/onsule-config-customize:test/data。这样的配置可以指定的是一个服务的配置文件
+```yml
+foo:
+  bar:
+    name: wuxiaobo111
+server:
+  port: 8119
+```
