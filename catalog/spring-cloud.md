@@ -119,3 +119,6 @@
 
 
 [Consul--consul具体功能](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/consul/consul%E5%85%B7%E4%BD%93%E5%8A%9F%E8%83%BD.md "Consul--consul具体功能]") 
+
+## config
+[cofnig--入门示例](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/config/config%E5%85%A5%E9%97%A8%E7%A4%BA%E4%BE%8B.md "cofnig--入门示例]") 
