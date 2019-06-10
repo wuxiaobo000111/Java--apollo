@@ -61,7 +61,7 @@ https://github.com/wuxiaobo000111/markdown/blob/master/catalog/redis.md "redis�
 # spring boot
 
 [spring boot技术相关](
-https://github.com/wuxiaobo000111/markdown/blob/master/catalog/spring-boot.md "spring boot技术相关")
+https://github.com/wuxiaobo000111/Java--apollo/blob/master/catalog/springboot.md "spring boot技术相关")
 
 
 # Spring-cloud
