@@ -122,3 +122,14 @@
 
 ## config
 [cofnig--入门示例](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/config/config%E5%85%A5%E9%97%A8%E7%A4%BA%E4%BE%8B.md "cofnig--入门示例]") 
+
+
+[cofnig--git配置详解](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/config/git%E9%85%8D%E7%BD%AE%E8%AF%A6%E8%A7%A3.md "cofnig--git配置详解]") 
+
+
+
+[cofnig--使用多个git库](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/config/%E4%BD%BF%E7%94%A8%E5%A4%9A%E4%B8%AAgit%E5%BA%93.md "cofnig--使用多个git库]") 
+
+
+
+[cofnig--基于db的config](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/config/%E5%9F%BA%E4%BA%8Edb%E7%9A%84config.md "cofnig--基于db的config]") 
