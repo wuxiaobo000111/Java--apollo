@@ -133,3 +133,11 @@
 
 
 [cofnig--基于db的config](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/config/%E5%9F%BA%E4%BA%8Edb%E7%9A%84config.md "cofnig--基于db的config]") 
+
+## swagger
+
+
+[swagger--swagger常用注解](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/swagger/swagger%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3.md "swagger--swagger常用注解]") 
+
+
+[swagger--swagger和zuul的结合](https://github.com/wuxiaobo000111/Java--apollo/blob/master/spring-cloud/swagger/swagger%E5%92%8Czuul%E7%9A%84%E7%BB%93%E5%90%88.md "swagger--swagger和zuul的结合]") 
