@@ -31,11 +31,7 @@
 ````
 ## After路由断言工厂
 
-After Route Predicate Factory 中会取一个UTC时间格式的时间参数,当请求进来的时候在配置的UTC时间之后,就会匹配成功,否则就会匹配失败。
-
-
-### 配置
-
+After Route Predicate Factory 中会取一个UTC时间格式的时间参数,当请求进来的时候在配置的UTC时间之后,就会匹配成功,否则就会匹配失败。配置如下所示:
 ```yml
 server:
   port: 8138
@@ -140,12 +136,10 @@ spring:
 
 Cookie路由断言工厂会取两个参数--cookie名称所对应的key和value.当请求中携带的cookie和Cookie断言工厂中配置的cookie一致的话,则路由匹配成功,否则就匹配不成功。
 
-但是我在路由中加了之后访问不生效,显示是404。这个问题还没有解决。
-(未解决)
 
 ```yml
  - id: cookie_route
-        uri: http://localhost:8084/hello
+        uri: http://localhost:8084
         predicates:
           - Path=/test
           - Cookie=name,wuxiaobo
@@ -154,6 +148,118 @@ Cookie路由断言工厂会取两个参数--cookie名称所对应的key和value.
 
 ## Header路由断言工厂
 
-Header路由断言工厂用于根据配置的路由Header信息进行断言匹配路由,匹配成功则进行转发,否则不进行转发。
+Header路由断言工厂用于根据配置的路由Header信息进行断言匹配路由,匹配成功则进行转发,否则不进行转发。示例参照如下的配置:
+
+```yml
+spring:
+  application:
+    name: gateway-prodicate-demo
+  cloud:
+    gateway:
+      routes:
+      - id: header_route
+        uri: http://localhost:8084
+        predicates:
+          - Path=/hello
+          - Header=X-Request-Id, \d+
+      discovery:
+        locator:
+          enabled: true
+```
+
+## Host路由断言工厂
+
+Host路由断言工厂是根绝配置的host,对请求中的Host进行断言处理,断言成功则进行路由转发,否则就不转发。配置如下:
+
+```yml
+spring:
+  application:
+    name: gateway-prodicate-demo
+  cloud:
+    gateway:
+      routes:
+       - id: host_route
+        uri: https://jd.com
+        predicates:
+          - Path=/host
+          - Host=**.baidu.com:8080
+      discovery:
+        locator:
+          enabled: true
+```
+
+##  Method路由断言工厂
+
+Method路由断言工厂会根据路由信息配置的method对请求方法是Get或者是Post方法等进行断言匹配，如果匹配成功则进行转发,否则就处理失败
+
+
+```yml
+spring:
+  application:
+    name: gateway-prodicate-demo
+  cloud:
+    gateway:
+      routes:
+      - id: method_route
+        uri: https://jd.com
+        predicates:
+          - Path=/method
+          - Method=Get
+      discovery:
+        locator:
+          enabled: true
+```
+
+然后访问 http://localhost:8138/method这个路径就可以跳转到京东的首页啦。
+
+## Query路由断言工厂
+
+Query路由断言工厂会从请求中获取两个参数,将请求中的参数和Query断言路由中的配置进行匹配,如果配置成功则转发,否则就转发失败。
+
+
+```yml
+spring:
+  application:
+    name: gateway-prodicate-demo
+  cloud:
+    gateway:
+      routes:
+       - id: query_route
+         uri: https://baidu.com
+         predicates:
+          - Path=/query
+          - Query=name, wuxiaobo
+      discovery:
+        locator:
+          enabled: true
+```
+
+然后通过访问 http://localhost:8138/query?name=wuxiaobo这个路径就可以去访问百度了。
+
+
+
+## RemoteAddr路由断言工厂
+
+RemoteAddr路由断言工厂配置一个IPv4或者IPv6网段的字符串或者是IP，当请求的IP地址在网段之内或者是和配置的IP相同,则表示匹配成功,然后进行转发,否则就不能转发。
+
+```yml
+spring:
+  application:
+    name: gateway-prodicate-demo
+  cloud:
+    gateway:
+      routes:
+       - id: addr_route
+        uri: https://baidu.com
+        predicates:
+          - Path=/addr
+          - RemoteAddr=0:0:0:0:0:0:0:1
+        locator:
+          enabled: true
+```
+
+
+然后通过访问 http://localhost:8138/addr 这个地址可以访问百度。这里注意一下,因为我电脑使用的IPv6的地址,，所以配置的是0:0:0:0:0:0:0:1。
+
 
 
